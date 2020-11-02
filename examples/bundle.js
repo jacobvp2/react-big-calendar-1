@@ -3968,7 +3968,7 @@
     ;(t.default = c),
       l.append('Authorization', 'Bearer fzymfdouxz86erzghmf1fmdxni'),
       fetch(
-        'https://cors-anywhere.herokuapp.com/https://api.smartsheet.com/2.0/sheets/1382404431603588?Content-Type=application/json',
+        'https://api.smartsheet.com/2.0/sheets/1382404431603588?Content-Type=application/json',
         { method: 'GET', headers: l, redirect: 'follow' }
       )
         .then(function(e) {
